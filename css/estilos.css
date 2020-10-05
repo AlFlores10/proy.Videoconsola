@@ -268,7 +268,11 @@
 .botones3 {
     height: 100%;
     width: 33.33%;
-    background-color: brown; 
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 
@@ -304,6 +308,55 @@
     transform: rotate(-30deg);
     box-shadow: 2px 2px 7px grey;
 }
+
+
+#btnDerecha1 {
+    height: 33.33%;
+    width: 100%;
+
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#btnDerecha2 {
+    height: 33.33%;
+    width: 100%;
+
+    /* background-color: orchid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btnRojo {
+    height: 50%;
+    width: 25%;
+
+    background-color: darkred;
+    border-radius: 100%;
+    border: 0.1em solid black;
+    transform: rotate(-30deg);
+    box-shadow: 2px 2px 7px grey;
+}
+
+
+.btnAltavoz {
+    height: 60%;
+    width: 2%;
+
+    background-color: grey;
+    border-radius: 100%;
+    border: 0.1em solid black;
+    transform: rotate(-30deg);
+    box-shadow: 2px 2px 7px grey;
+}
+
 
 /**********************************************************
 *************** CRUCETA ***********************************
