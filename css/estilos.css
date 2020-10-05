@@ -4,14 +4,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+    background-color: teal;
 
 }
 
 
 .general {
     width: 20em;
-    height: 35em;
-        background-color: red;
+    height: 30em;
+        background-color: rgb(190, 188, 185);
         display:flex;
         flex-direction: column;
 
@@ -234,7 +238,7 @@
     height: 50%;
     width: 100%;
 
-    background-color: green; 
+    /* background-color: green;  */
 
     display: flex;
     flex-direction: row;
@@ -243,7 +247,7 @@
 .botones1 {
     height: 100%;
     width: 33.33%;
-    background-color: yellow; 
+    /* background-color: yellow;  */
 
     display: flex;
     flex-direction: column;
@@ -264,13 +268,13 @@
 .cruceta1 {
     height: 33.33%;
     width: 100%;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 .cruceta2 {
     height: 33.34%;
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -280,7 +284,7 @@
 .cruceta3 {
     height: 33.33%;
     width: 100%;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 
@@ -290,49 +294,35 @@
 
 
 .crucetaFlechas1 {
-    height: 20%;
-    width: 100%;
+    height: 33.33%;
+    width:  100%;
 
-    background-color: black;
-
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .crucetaFlechas2 {
-    height: 20%;
-    width:  100%;
+    height: 33.34%;
+    width: 100%;
 
-    background-color: orange;
+    /* background-color: green; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
 .crucetaFlechas3 {
-    height: 20%;
+    height: 33.33%;
     width: 100%;
 
-    background-color: green;
+    /* background-color: red; */
     display: flex;
     justify-content: center;
-}
-
-
-.crucetaFlechas4 {
-    height: 20%;
-    width: 100%;
-
-    background-color: red;
-    display: flex;
-    justify-content: center;
-}
-
-
-.crucetaFlechas5 {
-    height: 20%;
-    width: 100%;
-
-    background-color: violet;
+    align-items: center;
 }
 
 
@@ -344,8 +334,10 @@
     height: 100%;
     width: 20%;
 
-    background-color: blue;
+    background-color: black;
     border: 0.1em solid black;
+    border-radius: 25% 0% 0% 25%;
+    box-shadow: inset 2px 2px 7px grey;
 }
 
 
@@ -353,8 +345,23 @@
     height: 100%;
     width: 20%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     border: 0.1em solid black;
+    box-shadow: inset 2px 2px 7px grey;
+}
+
+
+.flechaCirculo {
+    height: 100%;
+    width: 100%;
+
+    background-color: black;
+    /* border: 0.1em solid grey; */
+    border-radius: 100%;
+    box-shadow: inset 2px 2px 7px grey;
 
 }
 
@@ -363,9 +370,10 @@
     height: 100%;
     width: 20%;
 
-    background-color: darksalmon;
+    background-color: black;
     border: 0.1em solid black;
-
+    border-radius: 0% 25% 25% 0%;
+    box-shadow: inset 2px 2px 7px grey;
 }
 
 
@@ -373,8 +381,10 @@
     height: 100%;
     width: 20%;
 
-    background-color: red;
+    background-color: black;
     border: 0.1em solid black;
+    border-radius: 25% 25% 0% 0%;
+    box-shadow: inset 2px 2px 7px grey;
 
 }
 
@@ -383,7 +393,8 @@
     height: 100%;
     width: 20%;
 
-    background-color: yellowgreen;
+    background-color: black;
     border: 0.1em solid black;
-
+    border-radius: 0% 0% 25% 25%;
+    box-shadow: inset 2px 2px 7px grey;
 }
