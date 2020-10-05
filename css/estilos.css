@@ -12,38 +12,50 @@
     width: 20em;
     height: 30em;
     background-color: red;
-    border-radius: 10% 10% 30% 10%;
+    border-radius: 5% 5% 15% 5%;
 
     display:flex;
     flex-direction: column;
 }
 
-/*********************************
-************* PANTALLA ***********
-*********************************/
+/***********************************************
+************* PANTALLA *************************
+************************************************/
+
 .pantalla {
     height: 50%;
-    width: 100%;
+    width: 80%;
 
      background-color: blue; 
      display: flex;
      flex-direction: row;
+     border-radius: 5% 5% 20% 5%;
+     border: 0.1em solid black;
+     margin: 1.9em;
+     
 }
 
 
 .pantallaLeft {
     height: 100%;
     width: 20%;
+    border-radius: 20% 20% 20% 20%;
 
-     background-color: black; 
+    display: flex;
+    flex-direction: column;
+   
+   /* background-color: black; */
+
 }
 
 
 .pantallaCenter {
     height: 100%;
     width: 60%;
+    background-color: darkgreen;
 
-     background-color: darkgreen; 
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -51,35 +63,222 @@
     height: 100%;
     width: 20%;
 
-     background-color: palevioletred; 
+    /* background-color: palevioletred; */
 }
 
 
-.cristalUp {
+/********************************************************
+***************** CRISTAL IZQUIERDO **********************
+********************************************************/
+
+.cristalLeft1 {
+    height: 20%;
+    width: 100%;
+    
+    background-color: black;
+}
+
+
+.cristalLeft2 {
+    height: 20%;
+    width: 100%;
+    
+    background-color: yellow;
+
+}
+
+
+.cristalLeft3 {
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cristalLeft4 {
+    height: 20%;
+    width: 100%;
+    
+    background-color: yellow;
+
+}
+
+
+.cristalLeft5 {
+    height: 20%;
+    width: 100%;
+    
+    background-color: black;
+
+}
+
+
+/*******************************************************
+*************** CRISTAL CENTRO *************************
+*******************************************************/
+
+.cristalCenterUp {
     height: 15%;
     width: 100%;
 
-    background-color: purple;
+    background-color: purple; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.22em;
+    justify-content: space-around;
 }
 
 
-.cristalCenter {
+.cristalCenterCenter {
     height: 70%;
     width: 100%;
 
-    background-color: grey;
+    background-color: olive;
+    display: flex;
+    border: 0.1em solid black;
 }
 
 
-.cristalDown {
+.cristalCenterDown {
     height: 15%;
     width: 100%;
 
-    background-color: orange;
+    background-color: orange; 
 }
 
 
-/********************BOTONES***********/
+/***********************************************************
+***************** CRISTAL DERECHO *************************/
+
+.cristalRight1 {
+    height: 20%;
+    width: 100%;
+    
+    background-color: black;
+
+}
+
+
+.cristalRight2 {
+    height: 20%;
+    width: 100%;
+    
+    background-color: yellow;
+
+}
+
+
+.cristalRight3 {
+    height: 20%;
+    width: 100%;
+    
+    background-color: black;
+}
+
+
+.cristalRight4 {
+    height: 20%;
+    width: 100%;
+    
+    background-color: yellow;
+
+}
+
+
+.cristalRight5 {
+    height: 20%;
+    width: 100%;
+    
+    background-color: black;
+
+}
+
+
+
+/***********************************************************
+*********************** ESQUINAS ***************************
+***********************************************************/
+
+.esquina1 {
+    height: 20%;
+    width: 100%;
+
+    background-color: greenyellow;
+
+}
+
+.esquina2 {
+    height: 10%;
+    width: 100%;
+
+    background-color: darkred;
+
+}
+
+
+.esquina3 {
+    height: 10%;
+    width: 100%;
+
+    background-color: black;
+    
+}
+
+.esquina4 {
+    height: 10%;
+    width: 100%;
+
+    background-color: darkblue;
+
+}
+
+
+.esquina5 {
+    height: 50%;
+    width: 100%;
+
+    background-color: darkseagreen;
+
+}
+
+
+/***********************************************************
+************* BOTÓN POWER **********************************
+***********************************************************/
+
+.btnPower1 {
+    height: 25%;
+    width: 20%;
+
+    background-color: blue;
+    border-radius: 10em;
+
+}
+
+
+.btnPower2 {
+    height: 50%;
+    width: 100%;
+
+    background-color: yellow;
+    border-radius: 10em;
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+/**************************************************************
+********************BOTONES***********************************
+**************************************************************/
 .botones {
     height: 50%;
     width: 100%;
