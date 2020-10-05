@@ -251,12 +251,18 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .botones2 {
     height: 100%;
     width: 33.34%;
-    background-color: purple; 
+    /* background-color: purple;  */
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .botones3 {
@@ -265,13 +271,8 @@
     background-color: brown; 
 }
 
-.cruceta1 {
-    height: 33.33%;
-    width: 100%;
-    /* background-color: grey; */
-}
 
-.cruceta2 {
+.cruceta {
     height: 33.34%;
     width: 100%;
     /* background-color: blue; */
@@ -281,12 +282,28 @@
     align-items: center;
 }
 
-.cruceta3 {
+
+#btnStart {
     height: 33.33%;
     width: 100%;
-    /* background-color: pink; */
+
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
 }
 
+
+.btnMenu {
+    height: 10%;
+    width: 35%;
+
+    background-color: grey;
+    border-radius: 100%;
+    border: 0.1em solid black;
+    transform: rotate(-30deg);
+    box-shadow: 2px 2px 7px grey;
+}
 
 /**********************************************************
 *************** CRUCETA ***********************************
