@@ -19,8 +19,8 @@ Lista de tecnologías utilizadas en el proyecto:
 No es necesaria instalación. 
 ```
 ```
-## Collaboration
+## Repositories
 ***
-Diseño --> Alberto Flores Martínez
-> Repositorio GitHub --> 
-> GitHub Pages -->
+> * [Repositorio GitHub](https://github.com/AlFlores10/proy.Videoconsola.git): 
+> * [GitHub Pages](https://alflores10.github.io/proy.Videoconsola/): 
+> * [Alberto Flores Martínez](https://github.com/AlFlores10)
